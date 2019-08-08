@@ -12,7 +12,12 @@ python3 clean_beauty www.demo.com
 Output:
 
 ```
+######## PROCESSING ON THE URL ########
+URL: http://demolink.motocms.com/
+######## REACHING TO WEBSITE ########
+######## CLEAN CONTENT ########
  Demolink Oh, hi there! This is just an example of what happens after the link is clicked on your website. You can enable this feature for various objects: text, image, social buttons etc. Where links may point to: External URL You can point your website visitors to any external URL and open it within the same tab or in the new tab. Internal Page You can point visitors to any website page and open it within the same tab or in the new tab. Mail To This feature allows your visitors to initiate emails by clicking the link. 
+
 
 ```
 Further modifications can be done by manipulating the regular expressions and parsers used for repsective use case.
