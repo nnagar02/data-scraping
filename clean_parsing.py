@@ -11,7 +11,7 @@ def clean_content_as(URL):
 
     print("URL: " + URL)
 
-    print("######## CLEANED CONTENT ########")
+    print("######## REACHING TO WEBSITE ########")
     parser = "html.parser"
     
     #Cleaning functions for the HTML Content
@@ -47,8 +47,12 @@ def clean_content_as(URL):
     sending_request = requests.get(URL, headers=headers)
 
     soup_html_content = BeautifulSoup(sending_request.content, 'html.parser') #The parser can vary according to the use case
-
+    
+    print("######## CLEAN CONTENT ########")
     print(ultimate_clean(str(soup_html_content)))
 
 if __name__ == "__main__":
-    clean_content_as(sys.argv[1])
+    try:
+        clean_content_as(sys.argv[1])
+    except Exception as error:
+        print("Oops! Scraping failed becuase of: " + error)
