@@ -1,4 +1,5 @@
-# Data-Scraping
+# Data-Scraping &nbsp;&nbsp;<img src="https://github.com/nnagar02/data-scraping/blob/master/clean_bs4.png" width="100">
+
 Cleaned Web Scraping with BeautifulSoup and Other Python Libraries.
 
 Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
