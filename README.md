@@ -1,4 +1,4 @@
-# Data-Scraping &nbsp;&nbsp;<img src="https://github.com/nnagar02/data-scraping/blob/master/clean_bs4.png" width="100">
+# Data-Scraping &nbsp;&nbsp;<img src="https://github.com/nnagar02/data-scraping/blob/master/clean_bs4.png" width="100" height="50">
 
 Cleaned Web Scraping with BeautifulSoup and Other Python Libraries.
 
