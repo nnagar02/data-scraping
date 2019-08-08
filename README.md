@@ -7,7 +7,7 @@ Beautiful Soup is a Python library for pulling data out of HTML and XML files. I
 Just to get the complete clean scraped content of a website. Run the command followed by the webpage URL as:
 
 ```python
-python3 clean_beauty www.demo.com
+python3 clean_beauty http://www.demo.com/
 ```
 Output:
 
