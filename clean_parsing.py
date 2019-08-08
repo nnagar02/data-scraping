@@ -4,9 +4,14 @@ from bs4 import BeautifulSoup
 import re
 from html.parser import HTMLParser
 import contractions
+import sys
 
 def clean_content_as(URL):
-    
+    print("######## PROCESSING ON THE URL ########")
+
+    print("URL: " + URL)
+
+    print("######## CLEANED CONTENT ########")
     parser = "html.parser"
     
     #Cleaning functions for the HTML Content
@@ -42,6 +47,8 @@ def clean_content_as(URL):
     sending_request = requests.get(URL, headers=headers)
 
     soup_html_content = BeautifulSoup(sending_request.content, 'html.parser') #The parser can vary according to the use case
-    
-    return ultimate_clean(str(soup_html_content))
 
+    print(ultimate_clean(str(soup_html_content)))
+
+if __name__ == "__main__":
+    clean_content_as(sys.argv[1])
